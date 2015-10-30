@@ -1,0 +1,482 @@
+
+
+
+
+   <!-- Header--->
+
+<div id="header"> 
+<table id="headtable">
+<tr>
+<td>
+<div id="language">
+    <button id="language" type="button" >Swedish  <img src=" http://localhost/draft/public/images/downarrow.png">
+
+
+</div>
+</td>
+<td>
+</td>
+<td>
+<div id="socialmedia" >
+<ul >
+           
+             <li>
+				<a href="http://www.twitter.com/..."><img id="twitter"/></a>
+			</li>
+			 <li>
+				 <a href="https://www.facebook.com/..." ><img id="facebook" ></a>
+				 
+			</li>
+			   <li>
+				<a href="http://www.linkedin.com/..."><img id="linkedin" /></a>
+			</li>
+ </ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+   <!-- End header--->
+
+<div id="body">
+   <!-- Logo --->
+  <div id="logo"> 
+  <div id="Tlogo">
+     DEMOSTORE
+	 </div>
+	 <div id="Tsearch">
+	 <table>
+                <tr height="50" >
+                <td><img src=" http://localhost/draft/public/images/searchimage.png"></td>
+                <td> 
+                <input type="text" name="search" value="Search"></td>
+                <td><button id="button" type="submit" value="Prduct" > PRODUCT </button>
+                </td>
+                </tr>
+               </table>
+</div>  
+ <div id="Tcart">
+			   <table>
+                <tr height="50" >
+                <td><img src=" http://localhost/draft/public/images/cartimage.png"></td>
+                <td>
+                <input type="text" name="cart" value="Cart 3 items" readonly></td>
+                <td><a href='#showedClickable' class="clickable"><button id="button" type="submit" value="checkout" ><span id="cart"> CHECK OUT</span></button>
+                </td>
+                </tr>
+               </table>
+			   </div>
+</div>
+	 <!-- End logo---> 
+   <!-- Navigation --->
+   <div id="navigation"> 
+  
+   <nav id="nav">
+        <ul>
+            <li id="underline">
+			    <a href="#">Women</a>
+			<!-- First Tier Drop Down -->
+            <ul>
+                <li>
+				
+				<table id="Subtable">
+				<!-- Womans table -->
+<thead id="title">
+<tr>
+<th>Clothes</th>
+<th>Collections</th>
+<th>Photo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Socks</td>
+<td>Summer</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Trousers</td>
+<td>Autumn</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Sweaters</td>
+  <td>Winter</td>
+<td ></td>
+</tr>
+
+<tr>
+  <td>Hoodies</td>
+  <td>Spring</td>
+   <td></td>
+</tr>
+
+</tbody></table>
+				
+	<!-- End of womanstable -->
+				</li>
+               
+            </ul> 
+			</li>
+            <li id="underline"><a href="#">Men</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+                <li><table id="Subtable">
+				<!-- Men table -->
+<thead id="title">
+<tr>
+<th>Clothes</th>
+<th>Collections</th>
+<th>Photo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Socks</td>
+<td>Summer</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Trousers</td>
+<td>Autumn</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Sweaters</td>
+  <td>Winter</td>
+<td ></td>
+</tr>
+
+<tr>
+  <td>Hoodies</td>
+  <td>Spring</td>
+   <td></td>
+</tr>
+
+</tbody></table>
+				
+	<!-- End of mentable --></li>
+                
+            </ul>        
+            </li>
+			 <li id="underline"><a href="#">junior</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+                <li><table id="Subtable">
+				<!-- Junior table -->
+<thead id="title">
+<tr>
+<th>Clothes</th>
+<th>Collections</th>
+<th>Photo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Socks</td>
+<td>Summer</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Trousers</td>
+<td>Autumn</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Sweaters</td>
+  <td>Winter</td>
+<td ></td>
+</tr>
+
+<tr>
+  <td>Hoodies</td>
+  <td>Spring</td>
+   <td></td>
+</tr>
+
+</tbody></table>
+				
+	<!-- End of juniortable --></li>
+            </ul>        
+            </li>
+			<li id="underline"><a href="#">Accessories</a></li>
+            <li id="underline"><a href="#">Collections</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+                <li id="title"><a href="#">Year</a></li>
+                <li><a href="#">2014</a>
+				<ul>
+                    <li><a href="#">SUMMER</a></li>
+                    <li><a href="#">AUTMN</a></li>
+					<li><a href="#">WINTER</a></li>
+					<li><a href="#">SPRING</a></li>
+                </ul>
+				</li>
+                <li><a href="#">2013</a>
+            	<!-- Second Tier Drop Down -->
+                <ul>
+                    <li><a href="#">SUMMER</a></li>
+                    <li><a href="#">AUTMN</a></li>
+					<li><a href="#">WINTER</a></li>
+					<li><a href="#">SPRING</a></li>
+                </ul>
+                </li>
+				<li><a href="#">2012</a>
+				<ul>
+                    <li><a href="#">SUMMER</a></li>
+                    <li><a href="#">AUTMN</a></li>
+					<li><a href="#">WINTER</a></li>
+					<li><a href="#">SPRING</a></li>
+                </ul>
+				</li>
+				<li><a href="#">2011</a>
+				<ul>
+                    <li><a href="#">SUMMER</a></li>
+                    <li><a href="#">AUTMN</a></li>
+					<li><a href="#">WINTER</a></li>
+					<li><a href="#">SPRING</a></li>
+                </ul>
+				</li>
+            </ul>
+            </li>
+            <li id="underline"><a href="#">Sale</a></li>
+            <li><a href="#"> <div id="space"></div></a></li>
+			<li id="underline" style=" margin-left:358px;"><a href="#">My account</a>
+			<!-- First Tier Drop Down -->
+            <ul>
+                <li><a href="#">DASHBOARD</a></li>
+                <li><a href="#">ADDRESS BOOK</a></li>
+                <li><a href="#">MY ORDERS</a></li>
+				 <li><a href="#">WISHLIST</a></li>
+                <li><a href="#">LOG OUT</a></li>
+            </ul> 
+			
+			</li>
+        </ul>
+    </nav>
+   
+   
+   </div>
+
+   <!-- End Navigation--->
+   
+   <!-- Carousel --->
+   
+    <div id="carousel"> 
+	
+ <script type="text/javascript" src="http://localhost/draft/public/js/scripts.js"></script>
+	
+	 <div id="slider">
+
+    <div id="slide active-slide">
+      <img id="img-responsive" src=" http://localhost/draft/public/images/picone.png">
+    </div>
+    <div class="slide">
+      <img id="img-responsive" src="">
+    </div>
+    <div id="slide">
+      <img id="img-responsive" src=" http://localhost/draft/public/images/pictwo.png">
+    </div>
+  </div>
+
+  <div id="slider-nav">
+    <a href="#" id="arrow-prev"><img src=""></a>
+
+    <ul id="slider-dots">
+      <li id="dot active-dot">&bull;</li>
+      <li id="dot">&bull;</li>
+      <li id="dot">&bull;</li>
+	  <li id="dot">&bull;</li>
+      <li id="dot">&bull;</li>
+    </ul>
+
+    <a href="#" id="arrow-next"><img src=""></a>
+
+  </div>
+	
+	</div>	
+	<!-- End Carouzel--->
+	<!-- Favorite/Gallery --->
+	
+	 <div id="gallery"> 
+	  <div id="favorite">Our favourites</div>
+	  <div id="product">
+	     <ul >
+		    <li>
+			    <table id="Tproduct">
+				  <tr>
+				  <td > <img width="180" align="center" src="http://localhost/draft/public/images/product.png"> </tr>
+				  <td id="space"> WOMEN TROUSERS</tr>
+				  <td id="space">79.00</tr>
+				  <td id="space"><button id="button" type="submit" value="Add" > Add to cart </button> </tr>
+				  </tr>
+				</table>
+			    
+			</li>
+			<li>
+			    
+			</li>
+			<li>
+			   
+			</li>
+			<li>
+			    
+			</li>
+		 
+		 </ul>
+	
+	  	 </div>
+	 </div>
+<!-- End  Favorite/Gallery --->	 
+<!-- Article/Tabs --->	 
+	  <div id="article">
+	  <ul class="tabs">
+        <li>
+          <input type="radio" checked name="tabs" id="tab1">
+          <label for="tab1">
+		   <?php
+			     $json_string = 'http://localhost/draft/public/tab.json';
+                 $jsondata = file_get_contents($json_string);
+				 $result = json_decode($jsondata,true);
+				 echo $result[0]['Title'];
+            ?>
+		  
+		  </label>
+          <div id="tab-content1" class="tab-content animated fadeIn">
+            <?php
+			     $json_string = 'http://localhost/draft/public/tab.json';
+                 $jsondata = file_get_contents($json_string);
+				 $result = json_decode($jsondata,true);
+				 echo $result[0]['Content'];
+            ?>
+          </div>
+        </li>
+  
+  
+        <li>   
+          <input type="radio" name="tabs" id="tab2">
+          <label for="tab2">
+		  <?php
+			     $json_string = 'http://localhost/draft/public/tab.json';
+                 $jsondata = file_get_contents($json_string);
+				 $result = json_decode($jsondata,true);
+				 echo $result[1]['Title'];
+            ?>
+		  </label>
+          <div id="tab-content2" class="tab-content animated fadeIn">
+          <?php
+			     $json_string = 'http://localhost/draft/public/tab.json';
+                 $jsondata = file_get_contents($json_string);
+				 $result = json_decode($jsondata,true);
+				 echo $result[1]['Content'];
+            ?>
+          </div>
+        </li>
+  
+   <li>
+         
+          <input type="radio" name="tabs" id="tab3">
+          <label for="tab3">
+		  <?php
+			     $json_string = 'http://localhost/draft/public/tab.json';
+                 $jsondata = file_get_contents($json_string);
+				 $result = json_decode($jsondata,true);
+				 echo $result[2]['Title'];
+            ?>
+		  </label>
+          <div id="tab-content3" class="tab-content animated fadeIn">
+          <?php
+			     $json_string = 'http://localhost/draft/public/tab.json';
+                 $jsondata = file_get_contents($json_string);
+				 $result = json_decode($jsondata,true);
+				 echo $result[2]['Content'];
+            ?>
+          </div>
+        </li>
+  
+       
+  
+  
+  
+  
+</ul>
+
+	  </div>	  
+	<!-- End Article/Tabs--->	  
+	<!-- Newsfeed--->	 
+	   <div id="newsfeed"> 
+	   <div id="newstore">This is our new store</div>
+
+</div>
+<!-- End of Newsfeed --->	 
+<!-- Footer --->
+<div id="footer">
+
+<table id="foot-table">
+<thead id="title">
+<tr>
+<th>Top categories</th>
+<th>Customer service</th>
+<th>Newsletter subscribe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Women</td>
+<td>Returns</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Men</td>
+<td>Shipping</td>
+<td rowspan="2">
+<div id="newsletter">
+    <table>
+   <tr height="40" >
+   <td><img src=" http://localhost/draft/public/images/mailimage.png"></td>
+   <td> <form  action="/application/controllers/NewsletterController.php" method="POST">
+   <input type="email" name="email" value="firstname.lastname@draft.com"></td>
+   <td><button id="button" type="submit" value="Submit" > Subscribe </button>
+   </form>
+   </td>
+   </tr>
+   </table>
+</div>
+
+</td>
+</tr>
+
+<tr>
+<td>Junior</td>
+  <td>About us</td>
+<td ></td>
+</tr>
+
+<tr>
+<td>Accessories</td>
+  <td>Contact us</td>
+<td></td>
+</tr>
+
+</tbody></table>
+
+
+</div>
+
+
+
+
+ </div>
+<!--End Footer ---> 
+
+
+
+
